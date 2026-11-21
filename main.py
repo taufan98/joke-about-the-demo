@@ -7,7 +7,7 @@ then confidently ships the fix to the one place the bug never lived.
 
 import os
 
-JOKE = "My coding agent fixed the bug in four seconds \u2014 then proudly deployed the fix to production, where the bug had never been."
+JOKE = "My coding agent fixed the bug in four seconds \u2014 then proudly shipped the fix to production, where the bug had never been."
 
 def main() -> None:
     os.makedirs("/output", exist_ok=True)
